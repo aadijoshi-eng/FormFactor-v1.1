@@ -1,0 +1,60 @@
+{
+  "dataset": {
+    "metros": 387,
+    "statesAndDC": 51,
+    "countiesAndEquivalents": 3144,
+    "currentVintage": "2020–2024 ACS 5-year estimates",
+    "comparisonVintage": "2015–2019 ACS 5-year estimates",
+    "excludedGeographies": "Puerto Rico and other U.S. territories"
+  },
+  "limitations": [
+    "The bundled data is a static prototype snapshot, not a live market feed.",
+    "Original Census download files and margins of error are not included.",
+    "Geographic boundaries were not harmonized between ACS vintages.",
+    "The housing-fit scores use project assumptions and are not fitted to observed development outcomes."
+  ],
+  "sources": [
+    {
+      "name": "American Community Survey Summary File",
+      "url": "https://www.census.gov/programs-surveys/acs/data/summary-file.html",
+      "vintage": "2020–2024 ACS 5-year estimates",
+      "use": "Current population, household, income, housing, and commuting indicators"
+    },
+    {
+      "name": "2019 ACS Summary File",
+      "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2019/",
+      "vintage": "2015–2019 ACS 5-year estimates",
+      "use": "Population, employed-resident, and housing-unit comparison values"
+    },
+    {
+      "name": "Census Gazetteer Files",
+      "url": "https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html",
+      "vintage": "2024",
+      "use": "Land area and representative points"
+    },
+    {
+      "name": "Census Cartographic Boundary Files",
+      "url": "https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html",
+      "vintage": "2024",
+      "use": "Supplemental county-equivalent geometry"
+    },
+    {
+      "name": "us-atlas",
+      "url": "https://github.com/topojson/us-atlas",
+      "vintage": "2017 Census geometry",
+      "use": "Simplified state and county outlines"
+    },
+    {
+      "name": "ACS geography boundaries by year",
+      "url": "https://www.census.gov/programs-surveys/acs/geography-acs/geography-boundaries-by-year/2024.html",
+      "vintage": "2024",
+      "use": "Geographic boundary documentation"
+    },
+    {
+      "name": "Connecticut county-equivalent change",
+      "url": "https://www.census.gov/programs-surveys/acs/technical-documentation/user-notes/2023-01.html",
+      "vintage": "2022 geography change notice",
+      "use": "Documentation for Connecticut planning regions"
+    }
+  ]
+}
